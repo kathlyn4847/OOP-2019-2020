@@ -31,6 +31,8 @@ public class Loops extends PApplet
 
 	public void loops2()
 	{
+		//(float)= casting 
+		//converting float to inteter in java get a compiler error
 		int numCircles  = (int) (20 * (mouseX / (float) width)) ;
 		
 		float w = width / (float) numCircles;
