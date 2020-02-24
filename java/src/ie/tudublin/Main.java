@@ -44,6 +44,12 @@ public class Main
         String[] a = {"MAIN"};
         processing.core.PApplet.runSketch( a, new SoundMandala());
     }
+
+    public void Sound1()
+    {
+        String[] a = {"MAIN"};
+        processing.core.PApplet.runSketch( a, new Sound1());
+    }
     
     public void dogsCats()
     {
