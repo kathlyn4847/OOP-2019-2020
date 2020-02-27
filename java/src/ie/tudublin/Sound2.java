@@ -30,6 +30,38 @@ public class Sound2 extends PApplet
 		as.stop();
 		as.trigger();
 	}
+
+	public int countZeroCrossings()
+	{
+
+		//float sample = in.left.get(SAMPLE_INDEX);
+		int counter = 0;
+
+		for(int i = 0; i < as.bufferSize(); i++)
+		{
+			float sample = as.left.get(i);
+			if (sample == 0)
+			{
+				counter += counter;
+			}
+			
+		}
+		
+
+		float[] frequencies = {293.66f, 329.63f, 369.99f, 392.00f, 440.00f, 493.88f, 554.37f, 587.33f
+			, 659.25f, 739.99f, 783.99f, 880.00f, 987.77f, 1108.73f, 1174.66f};
+
+		for ( int i = 0; i < as.bufferSize(); i++)
+		{
+			if ( frequencies[i] == counter)
+			{
+				System.out.println(counter);
+			}
+		}
+
+		return counter;
+		
+	}
 	
 	public void draw()
 	{	
