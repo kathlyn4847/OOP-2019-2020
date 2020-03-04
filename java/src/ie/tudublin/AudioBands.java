@@ -42,7 +42,7 @@ public class AudioBands extends PApplet {
 
 	public void setup() {
 		minim = new Minim(this);
-		as = minim.loadSample("heroplanet.mp3", frameSize);
+		as = minim.loadSample("song.mp3", frameSize);
 		colorMode(HSB);
 
 		fft = new FFT(frameSize, sampleRate);

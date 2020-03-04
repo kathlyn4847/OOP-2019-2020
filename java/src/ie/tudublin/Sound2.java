@@ -26,7 +26,7 @@ public class Sound2 extends PApplet
 	public void setup() 
 	{
 		minim = new Minim(this);
-		as = minim.loadSample("scale.wav", frameSize);
+		as = minim.loadSample("blue.mp3", frameSize);
 		
 		fft = new FFT(frameSize, sampleRate); 
 

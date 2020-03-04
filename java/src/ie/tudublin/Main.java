@@ -56,7 +56,19 @@ public class Main
         String[] a = {"MAIN"};
         processing.core.PApplet.runSketch( a, new SoundMandala());
     }
-    
+
+    public void sound3()
+    {
+        String[] a = {"MAIN"};
+        processing.core.PApplet.runSketch( a, new Sound3());
+    }
+
+    // public void pitchSpeller()
+    // {
+    //     String[] a = {"MAIN"};
+    //     processing.core.PApplet.runSketch( a, new PitchSpeller());
+    // }
+
     public void dogsCats()
     {
         // Polymorphism means
@@ -99,6 +111,6 @@ public class Main
     public static void main(String[] arg)
     {
         Main main = new Main();
-		main.sound2();        
+		main.soundMandala();        
     }
 }

@@ -21,7 +21,7 @@ public class Sound3 extends PApplet
 	public void setup() 
 	{
 		minim = new Minim(this);
-		as = minim.loadSample("heroplanet.mp3", frameSize);
+		as = minim.loadSample("blue.mp3", frameSize);
 		colorMode(HSB);
 	}
 
