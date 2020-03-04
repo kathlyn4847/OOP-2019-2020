@@ -1,4 +1,4 @@
-# DT228/DT282 Object Oriented Programming 2018-2019
+# DT228/DT282 Object Oriented Programming 2019-2020
 
 Resources
 ---------
@@ -21,6 +21,19 @@ Resources
 - Week 11 Lab Test 20% 
 - Week 12 Assignment Submission - 30%
 - End of Year exam - 50%
+
+# Week 6 - FFT
+- Check out Sound2 example
+
+## Lab
+Fork [this repository](https://github.com/skooter500/MusicVisuals). It has the starter code for your assignment. 
+
+- Create a new package named your student number and put all your code in this package.
+- You should start by creating a subclass of ie.tudublin.Visual
+- Check out the example visualiser called MyVisual in the example package
+- Check out the WaveForm and AudioBandsVisual for examples of how to call the Processing functions from other classes that are not subclasses of PApplet
+- Study the files Visual.java, MyVisual.java, WaveForm.java and AudioBandsVisual.java to see how it all works
+- Get working on your assignment!
 
 # Week 5 - Introduction to digital audio
 - Sound1 & Sound2 examples
@@ -50,7 +63,7 @@ git checkout -b lab5
 
 Today lets implement a simple pitch detection algorithm called Zero Crossings in order to figure out the musical note that is playing. 
 
-If you compile and run the code from the class, you will see the simple audio visualiser we worked on in the class on Monday. This time however, the audio that is being visualised is from a wav file. The wav file is of a tin-whistle playing the scale. To get the wav file to start playing, press a key on the keyboard.
+If you compile and run the code, you will see a variation on the  simple audio visualiser we worked on in the class on Monday. This time however, the audio that is being visualised is from a wav file. The wav file is of a tin-whistle playing the scale. To get the wav file to start playing, press a key on the keyboard.
 
 Digital audio, samples the voltage coming from the microphone and stores these voltages as floating point numbers. For CD quality audio, the microphone is sampled 44100 times per second. If you play a note on an instrument like a tin-whistle or a piano and plot the samples on a graph, it would look something like this:
 
